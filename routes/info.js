@@ -2,15 +2,14 @@ var data1 = require('../teacher.json');
 
 exports.viewInfo = function(req,res){
 
-    var name = req.params.name;
-    console.log("my name is; " + name);
-    var course;
+    var course = req.params.course;
+    console.log("my name is; " + course);
 
-    var i = 1;
+    var i = 0;
 
    /*var len = data1.length;
    console.log("the length is; " + len); */
-   var c, d, com;
+   var c, d, com, n;
 
 while(i < 10){
     //for(var n in data1){
@@ -19,12 +18,12 @@ while(i < 10){
         console.log( data1[n][i]['course']);
         console.log( data1[n][i]['department']);
         //console.log( data1[n][i]['comments']); */
-        //console.log("Comparing: " + data1['teacher'][i]['name'] + " and " + name );
-        var val = data1['teacher'][i]['name'];
-        if(val === name){
+        console.log("Comparing: " + data1['teacher'][i]['course'] + " and " + course );
+        var val = data1['teacher'][i]['course'];
+        if(val === course){
             console.log("finally");
 
-            c = data1['teacher'][i]['course'];
+            n = data1['teacher'][i]['name'];
             d = data1['teacher'][i]['department'];
             com = data1['teacher'][i]['comments'];
             //com = data1[n][i]['comments'];
@@ -34,13 +33,13 @@ while(i < 10){
     i++;
 }
 
-    console.log("course: " + c);
+    console.log("name: " + n);
     console.log("desc" + d);
     console.log("com" + com);
     
     res.render('info', {
-        "teacherName": name,
-        "teacherCourse" : c,
+        "teacherName": n,
+        "teacherCourse" : course,
         "teacherDepartment": d,
         //"teacherComments": com
     });

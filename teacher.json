@@ -3,73 +3,156 @@
   {
     "name":"Rick Ord",
     "course":"CSE 8B",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Rick Ord",
     "course":"CSE 11",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Rick Ord",
     "course":"CSE 30",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Rick Ord",
     "course":"CSE 131",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Gary Gillespie",
     "course":"CSE 12",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Gary Gillespie",
     "course":"CSE 110",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Scott Klemmer",
     "course":"CSE 170 and COGS 120",
-    "department":"Computer Science"
-
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Steve Swanson",
     "course":"CSE 141",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Diba Mirza",
     "course":"CSE 30",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Diba Mirza",
     "course":"CSE 100",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Diba Mirza",
     "course":"CSE 140",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Leo Porter",
     "course":"CSE 8B",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Leo Porter",
     "course":"CSE 100",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   },
   {
     "name":"Leo Porter",
     "course":"CSE 141",
-    "department":"Computer Science"
+    "department":"Computer Science",
+    "comments": [
+    {
+        "comment1": "Good One",
+        "comment2": "Good Two"
+    }
+    ]
   }
 ]
 }
