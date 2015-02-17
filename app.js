@@ -11,14 +11,16 @@ var mongoose = require('mongoose');
 
 var index = require('./routes/index');
 var project = require('./routes/project');
+var teacher = require('./routes/teacher');
+var info = require('./routes/info');
 // Example route
 // var user = require('./routes/user');
 
 // Connect to the Mongo database, whether locally or on Heroku
 // MAKE SURE TO CHANGE THE NAME FROM 'lab7' TO ... IN OTHER PROJECTS
 var local_database_name = 'lab7';
-var local_database_uri  = 'mongodb://localhost/' + local_database_name
-var database_uri = process.env.MONGOLAB_URI || local_database_uri
+var local_database_uri  = 'mongodb://localhost/' + local_database_name;
+var database_uri = process.env.MONGOLAB_URI || local_database_uri;
 mongoose.connect(database_uri);
 
 var app = express();
@@ -45,6 +47,8 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.get('/teacher', teacher.view);
+app.get('/info/:name', info.viewInfo);
 app.get('/project/:id', project.projectInfo);
 app.post('/project/new', project.addProject);
 app.post('/project/:id/delete', project.deleteProject);

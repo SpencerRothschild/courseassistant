@@ -1,0 +1,75 @@
+{
+ "teacher": [
+  {
+    "name":"Rick Ord",
+    "course":"CSE 8B",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Rick Ord",
+    "course":"CSE 11",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Rick Ord",
+    "course":"CSE 30",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Rick Ord",
+    "course":"CSE 131",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Gary Gillespie",
+    "course":"CSE 12",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Gary Gillespie",
+    "course":"CSE 110",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Scott Klemmer",
+    "course":"CSE 170 and COGS 120",
+    "department":"Computer Science"
+
+  },
+  {
+    "name":"Steve Swanson",
+    "course":"CSE 141",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Diba Mirza",
+    "course":"CSE 30",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Diba Mirza",
+    "course":"CSE 100",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Diba Mirza",
+    "course":"CSE 140",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Leo Porter",
+    "course":"CSE 8B",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Leo Porter",
+    "course":"CSE 100",
+    "department":"Computer Science"
+  },
+  {
+    "name":"Leo Porter",
+    "course":"CSE 141",
+    "department":"Computer Science"
+  }
+]
+}

@@ -1,11 +1,11 @@
 
-var models = require('../models');
+//var models = require('../models');
 
 /*
  * GET home page.
  */
 
-exports.view = function(req, res){
+/*exports.view = function(req, res){
 
 	models.Project
 		.find()
@@ -16,4 +16,9 @@ exports.view = function(req, res){
 		res.render('index', { 'projects': projects });
 	}
 
+}; */
+
+exports.view = function(req,res){
+
+    res.render('index');
 };

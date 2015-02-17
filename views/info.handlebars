@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/introHCI.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- this is a comment in HTML -->
+    <div class="container">
+    <div class="jumbotron">
+      <h1>{{teacherName}}</h1>
+      <p>one-sentence description of project</p>
+    </div>
+
+        <p>Rick received his M.S. in Computer Science from the University of California, San Diego (UCSD) in 1987. He has been Director of the Computing Facility in the Department of Computer Science and Engineering (CSE) at UCSD from August of 1988 to July of 2001, at which time he became a full-time Lecturer in Computer Science.
+Rick has been a Lecturer in the CSE department at UCSD since January 1991 (full-time since 2001) and an Instructor in the Information Technologies department at UCSD Extension from 1987 - 2005.
+
+Teaching Awards include: 
+1994 & 1998 UCSD Extension Outstanding Instructor 
+2002-2003 Teacher of the Year in CSE / Jacobs School of Engineering 
+2003-2004 Teacher of the Year in CSE / Jacobs School of Engineering 
+2003-2004 Warren College Teacher of the Year 
+2004-2005 Teacher of the Year in CSE / Jacobs School of Engineering 
+2005-2006 Teacher of the Year in CSE / Jacobs School of Engineering  (No longer eligible to receive this award) 
+2005-2006 Outstanding Faculty of the Year elected by Tau Beta Pi, The Engineering Honors Society 
+2007-2008 Sixth College Teacher of the Year 
+2010-2011 Warren College Teacher of the Year 
+2012-2013 Barbara and Paul Saltman Distinguished Teaching Award for Non-Senate Members
+Classes he has taught in CSE at UCSD include: 
+CSE 3 – Fluency with Information Technology 
+CSE 5A – Introduction to Programming (C/C++) 
+CSE 8A and CSE 8B – Introduction to Computer Science: Java 
+CSE 11 – Introduction to Computer Science and Object-Oriented Programming: Java (Accelerated Pace) 
+CSE 15L – Software Tools and Techniques Laboratory (Debugging) 
+CSE 21 – Mathematics for Algorithms and Systems Analysis (Foundations of Computer Science) 
+CSE 30 – Computer Organization & Systems Programming 
+CSE 70 – Introduction to Software Engineering (now CSE 110) 
+CSE 80 – Unix Lab 
+CSE 86 – C++ for Java Programmers 
+CSE 131 – Compiler Construction
+Classes he has taught at UCSD Extension include: 
+Introductory C Programming, Intermediate C Programming, Advanced C Programming 
+Data Structures & Algorithms 
+C++ Programming 
+Unix Internals & Device Drivers, Unix Systems Programming 
+Java Programming I, Java Programming II, Java Programming III, and Java Programming IV.
+Before coming to the CSE department, Rick worked in Academic Computing Services (ACS) at UCSD as a Unix systems programmer from March 1984 to August 1988, working full-time and going to graduate school part-time.
+
+Rick became interested in computers while working at the UCSD Medical Center as a Physician's Assistant in the Division of Cardiothoracic Surgery (1979 - 1981). He would spend the on-call nights playing rudimentary Star Trek games on a computer system used for patient data monitoring. He also did a lot of interfacing between medical staff and the computer programming staff.</p>
+        <center>
+        <div class="container">
+                <img src="http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg" alt="Lorem Pixel image" class="img">
+         </div>       
+       </center>
+
+
+           <div class="container">
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>   <h3> comments </h3></th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{#com}}
+            <tr>
+              <td><h5>{{comment1}} </a> </h5></a></td> 
+            </tr>
+          {{/com}}  
+        </tbody>
+      </table>  
+    </div>
+
+
+    <p><a href="/teacher">Back &raquo;</a></p>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

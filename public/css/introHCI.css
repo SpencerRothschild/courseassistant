@@ -34,20 +34,190 @@
      text-align: center;
 }
 
-.project .details {
-     overflow: hidden;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.project .details .detailsImage {
-     width: 200px;
-     margin: 10px 10px 10px 0px;
-     float: left;
+.navbar-static-top {
+  margin-bottom: 19px;
 }
 
-body > div.container {
-     margin-bottom: 20px;
+.row {
+  min-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
-.project-img {
-     max-height: 300px;
+.col-xs-6 {
+  padding-top: 20px;
+}
+
+.spacing {
+  height: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.logo-name a, .logo-name-sm a, a.head-link {
+  color:#F2AA39;
+  text-shadow:
+   -2px -2px 0 rgba(255,255,255,0.5),  
+    2px -2px 0 rgba(255,255,255,0.5),
+    -2px 2px 0 rgba(255,255,255,0.5),
+     2px 2px 0 rgba(255,255,255,0.5);
+}
+/*
+#map-pane {
+  margin-bottom:-30px;
+}
+*/
+
+.flagbutton {
+  background:#ff0000;
+  color:#fff;
+  margin-top:30px;
+}
+
+.flagbutton span {
+  padding-right:5px;
+  position:relative;
+  top:1px;
+}
+
+.city {
+  font-family: Flamenco, Bitter, Georgia, serif;
+  font-weight: bold;
+  font-size:16px;
+  text-align:center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  text-shadow:
+   -2px -2px 0 rgba(255,255,255,0.3),  
+    2px -2px 0 rgba(255,255,255,0.3),
+    -2px 2px 0 rgba(255,255,255,0.3),
+     2px 2px 0 rgba(255,255,255,0.3);
+}
+
+
+.container {
+  padding-bottom: 30px;
+}
+
+.logo-mom {
+  font-family: 'Lily Script One', serif;
+  z-index:1;
+}
+
+.logo-and {
+  display:inline-block;
+  position:relative;
+  width:40px;
+  height:40px;
+  font-size:40px;
+  font-family: 'Ovo', serif;
+  background: rgba(255,255,255,0.75);
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+}
+
+.logo-pop {
+  font-family: 'Sniglet', sans-serif;
+  position:relative;
+  left:-4px;
+  z-index:1;
+}
+
+.head-link {
+  font-size: 24px;
+  z-index:4;
+  line-height:50px;
+  position:absolute;
+}
+
+.logo-name-sm {
+  font-size:24px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  text-align: center;
+}
+
+.logo-name-sm .logo-and {
+  width:24px;
+  height:24px;
+  font-size:24px;
+  -webkit-border-radius: 12px;
+     -moz-border-radius: 12px;
+          border-radius: 12px;
+  text-align:center;
+}
+
+.backtext {
+  font-size: 12px;
+  vertical-align:4px;
+  margin-left:2px;
+}
+
+.link-back {
+  float: left;
+  display: block;
+  left:10px;
+}
+
+.link-logo {
+  text-align: center;
+}
+
+.link-home {
+  float:right;
+  display:block;
+  right:15px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  /*padding: 60px 15px 0; */
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
 }
