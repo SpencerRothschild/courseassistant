@@ -16,14 +16,16 @@ function initializePage() {
 		console.log("DID WE WINDSADADADADSA?");
 		var teach = $('#teacherName').text();
 		var course = $('#teacherCourse').text();
+		var courseName = $('#courseName').text();
 
-		//alert("the prof is " + teach);
+		//alert("the prof is " + course);
 		//var name = $('#addFriendForm #name').val();
 		var description = $('#addFriendForm #description').val();
 		var json = {
 			'course': course,
 			'description' : description,
-			'teach': teach
+			'teach': teach,
+			'courseName': courseName
 		}; 
 
 		$.post('/info/new', json, function() {

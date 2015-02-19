@@ -10,6 +10,9 @@ exports.viewInfo = function(req,res){
     
     var teacherLen = data1['teacher'].length;
 
+    var commentlen = data1['teacher'][0]['comments'].length;
+    console.log("Comment length " + commentlen);
+
     while(i < teacherLen){
         var val = data1['teacher'][i]['course'];
         if(val === course){
@@ -68,16 +71,15 @@ exports.addComment = function(req, res){
     }
 
     var comlen = data1['teacher'][s]['comments'].length;
-
+    console.log("lenght of comments is: " + comlen);
     var j = 0;
-    var id;
+    var id = 0;
     while(j < comlen){
 
-        //console.log("id is " + data1['teacher'][s]['comments'][j]['id']);
         id = data1['teacher'][s]['comments'][j]['id'];
         j++;
     }
-
+    console.log("here");
     id++;
 
     var newComment = {
