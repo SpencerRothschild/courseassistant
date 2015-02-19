@@ -48,6 +48,9 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/teacher', teacher.view);
+//app.get('/info', info.addComment);
+app.post('/info/new', info.addComment);
+//app.get('/add', info.addComment);
 app.get('/info/:course', info.viewInfo);
 app.get('/project/:id', project.projectInfo);
 app.post('/project/new', project.addProject);

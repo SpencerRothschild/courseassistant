@@ -2,156 +2,348 @@
  "teacher": [
   {
     "name":"Rick Ord",
-    "course":"CSE 8B",
+    "course":"CSE 8B Ord",
+    "title": "Introduction to Computer Science: Java (II)",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Continuation of the Java language and of programming techniques. More on Inheritance. Exception handling. ",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Rick Ord",
     "course":"CSE 11",
+    "title": "Intr CompSci & Obj-Ori Prog (JAVA)",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to computer science and programming using the Java language. Basic UNIX. Modularity and abstraction. Documentation, testing and verification techniques. Basic object-oriented programming including inheritance and dynamic binding. Exception handling. Event driven programming. Experience with AWT library or other similar library",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+    
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+    
     ]
   },
   {
     "name":"Rick Ord",
-    "course":"CSE 30",
+    "course":"CSE 30 Ord",
+    "title": "Computer Organiz & Systems Program",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to organization of modern digital computers - understanding the various components of a computer and their interrelationships. Study of a specific architecture/machine with emphasis on systems programming in C and Assembly languages in a UNIX environment.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+        
     ]
   },
   {
     "name":"Rick Ord",
     "course":"CSE 131",
+    "title": "Compiler Construction I",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to the compilation of programming languages, practice of lexical and syntactic analysis, symbol tables, syntax-directed translation, type checking, code generation, optimization, interpretation, and compiler structure.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Gary Gillespie",
     "course":"CSE 12",
+    "title": "Data Struc & Obj-Orient Design ",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Use and implementation of basic data structures including linked lists, stacks, and queues. Use of advanced structures such as binary trees and hash tables. Object-oriented design including interfaces, polymorphism, encapsulation, abstract data types,pre-/post-conditions. Recursion. Uses Java and Java Collections. ",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Gary Gillespie",
     "course":"CSE 110",
+    "title": "Software Engineering",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. an emphasis on team development, agile methods, and use of tools as IDE's, version control, and test harnesses.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Scott Klemmer",
-    "course":"CSE 170 and COGS 120",
+    "course":"CSE 170",
+    "title": "Human Computer Interaction",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "This course is an introduction to the field of human computer interaction (HCI). It provides an overview of HCI from the perspective of cognitive science. This course is cross-listed with COGS 120.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Steve Swanson",
-    "course":"CSE 141",
+    "course":"CSE 141 Swanson",
+    "title": "Intro Comp Architecture",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to computer architecture. Computer system design. Processor design.Control design. Memory systems.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Diba Mirza",
-    "course":"CSE 30",
+    "course":"CSE 30 Mirza",
+    "title": "Computer Organiz & Systems Program",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to organization of modern digital computers - understanding the various components of a computer and their interrelationships. Study of a specific architecture/machine with emphasis on systems programming in C and Assembly languages in a UNIX environment.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Diba Mirza",
-    "course":"CSE 100",
+    "course":"CSE 100 Mirza",
+    "title": "Advanced Data Structures",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "High-performance data structures and supporting algorithms. Use and implementation of data structures like (un)balanced trees, graphs, priority queues, and hash tables. Also memory management,pointers, recursion. Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Diba Mirza",
     "course":"CSE 140",
+    "title": "Components and Design Techniques for Digital Systems",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Design of Boolean logic and finite state machines; two-level, multi-level combinational logic design, combinational modules and modular networks, Mealy and Moore machines, analysis and synthesis of canonical forms, sequential modules.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Leo Porter",
-    "course":"CSE 8B",
+    "course":"CSE 8B Porter",
+    "title": "Introduction to Computer Science: Java (II)",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Continuation of the Java language and of programming techniques. More on Inheritance. Exception handling.  Recommended Prep: High School Algebra and familiarity with computing concepts or CSE 8A.",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Leo Porter",
-    "course":"CSE 100",
+    "course":"CSE 100 Porter",
+    "title": "Advanced Data Structures",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "High-performance data structures and supporting algorithms. Use and implementation of data structures like (un)balanced trees, graphs, priority queues, and hash tables. Also memory management, pointers, recursion. Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL",
+    "bio": "I lived through the 70s",
     "comments": [
-    {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   },
   {
     "name":"Leo Porter",
-    "course":"CSE 141",
+    "course":"CSE 141 Porter",
+    "title": "Intro Comp Architecture",
     "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduction to computer architecture. Computer system design. Processor design. Control design. Memory systems.",
+    "bio": "I lived through the 70s",
     "comments": [
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+    ]
+  },
     {
-        "comment1": "Good One",
-        "comment2": "Good Two"
-    }
+    "name":"Susan Marx",
+    "course":"CSE 5A",
+    "title": "Fluency in Information Tech",
+    "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introduces students to modern structured programming techniques using the C programming language. Students will gain some idea of the sorts of tasks for which the computer is highly suited, and which sorts of tasks it is not. The course also presents the basic skills for using a PC operating system with graphical user interface. File maintenance utilities are also covered.",
+    "bio": "I lived through the 70s",
+    "comments": [
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+    ]
+  },
+    {
+    "name":"Susan Marx",
+    "course":"CSE 3",
+    "title": "Fluency in Information Tech",
+    "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "tInformation technology plays an increasingly large role in both society and the individual lives of citizens. This course attempts to provide students with basic information they need to deal with information technology. It is more of a concepts course than a programming course, but some simpleprogramming will be done as part of teaching concepts.",
+    "bio": "I lived through the 70s",
+    "comments": [
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+    ]
+  },
+    {
+    "name":"Susan Marx",
+    "course":"CSE 7",
+    "title": "Intro To MatLab",
+    "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Fundamentals of computer programming and basic software design covering topics related to variables, functions, and control structures; writing, testing, and debugging programs in MATLAB. Examples focus on scientific applications. Students may not take CSE 7 after completing COGS 18.",
+    "bio": "I lived through the 70s",
+    "comments": [
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
+    ]
+  },
+    {
+    "name":"Christine Alvarado",
+    "course":"CSE 8A",
+    "title": "Intro Computer Science: JAVA I",
+    "department":"Computer Science",
+    "image": "http://cseweb.ucsd.edu/~ricko/images/Rick-Headshot.jpg",
+    "description": "Introductory course for students interested in computer science. Fundamental concepts of applied computer science using media computation. Exercises in the theory and practice of computer science. Hands-on experience with designing, editing, compiling, and executing programming constructs and applications.",
+    "bio": "I lived through the 70s",
+    "comments": [
+        {
+            "id" : 1,
+            "content": "Good One"
+        },
+        {   
+            "id" : 2,
+            "content": "Good Two"
+        }
     ]
   }
 ]

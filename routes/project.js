@@ -14,7 +14,7 @@ exports.projectInfo = function(req, res) { 
     if(err) console.log(err);
     res.json(projects[0]);
   }
-}
+};
 
 exports.addProject = function(req, res) {
   var form_data = req.body;
@@ -35,7 +35,7 @@ exports.addProject = function(req, res) {
   }
   // make a new Project and save it to the DB
   // YOU MUST send an OK response w/ res.send();
-}
+};
 
 exports.deleteProject = function(req, res) {
   var projectID = req.params.id;
