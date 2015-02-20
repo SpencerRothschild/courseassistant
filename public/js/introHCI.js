@@ -21,11 +21,22 @@ function initializePage() {
 		//alert("the prof is " + course);
 		//var name = $('#addFriendForm #name').val();
 		var description = $('#addFriendForm #description').val();
+		var evsa = $('#addFriendForm #evsa').val();
+		var style = $('#addFriendForm #style').val();
+		var positives = $('#addFriendForm #positives').val();	
+		var negatives = $('#addFriendForm #negatives').val();
+		var ad = $('#addFriendForm #ad').val();
+
 		var json = {
 			'course': course,
 			'description' : description,
 			'teach': teach,
-			'courseName': courseName
+			'courseName': courseName,
+			'evsa': evsa,
+			'style': style,
+			'positives': positives,
+			'negatives': negatives,
+			'ad': ad
 		}; 
 
 		$.post('/info/new', json, function() {

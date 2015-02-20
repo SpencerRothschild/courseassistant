@@ -50,11 +50,19 @@ exports.addComment = function(req, res){
     var description = form_data['description'];
     var teach = form_data['teach'];
 
-    console.log("course = " + course + " teach = " + teach + " Descrip = " + description);
+    var evsa = form_data['evsa'];
+    var style = form_data['style'];
+    var positives = form_data['positives'];
+    var negatives = form_data['negatives'];
+    var ad = form_data['ad'];
+
+    console.log("EVSA: " + evsa + " - STYLE: " + style + " - POS: " + positives + " - NEG: " + negatives + " - AD: " + ad);
+
+    //console.log("course = " + course + " teach = " + teach + " Descrip = " + description);
 
 
     var teacherLen = data1['teacher'].length;
-    console.log("Length of teachers is: " + teacherLen);
+    //console.log("Length of teachers is: " + teacherLen);
 
     var i = 0;
     var s;
@@ -71,7 +79,7 @@ exports.addComment = function(req, res){
     }
 
     var comlen = data1['teacher'][s]['comments'].length;
-    console.log("lenght of comments is: " + comlen);
+    //console.log("lenght of comments is: " + comlen);
     var j = 0;
     var id = 0;
     while(j < comlen){
@@ -84,7 +92,12 @@ exports.addComment = function(req, res){
 
     var newComment = {
         "id" : id,
-        "content" : description
+        "content" : description,
+        "evsa": evsa,
+        "style": style,
+        "positives": positives,
+        "negatives": negatives,
+        "ad": ad
     };
 
     data1["teacher"][s]['comments'].push(newComment);
